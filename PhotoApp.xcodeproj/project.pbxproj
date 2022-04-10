@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE26A5312802F5A4009A4A46 /* AccountsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26A5302802F5A4009A4A46 /* AccountsListTableViewController.swift */; };
+		CE26A53328030408009A4A46 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26A53228030408009A4A46 /* AccountTableViewCell.swift */; };
+		CE26A53528031EF0009A4A46 /* AccountEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26A53428031EF0009A4A46 /* AccountEntity.swift */; };
+		CE26A5412803580E009A4A46 /* PhotoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE26A53F2803580E009A4A46 /* PhotoApp.xcdatamodeld */; };
 		CE5FFD8A280167B600798FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5FFD89280167B600798FD7 /* AppDelegate.swift */; };
 		CE5FFD8C280167B600798FD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5FFD8B280167B600798FD7 /* SceneDelegate.swift */; };
-		CE5FFD8E280167B600798FD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5FFD8D280167B600798FD7 /* ViewController.swift */; };
-		CE5FFD91280167B600798FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5FFD8F280167B600798FD7 /* Main.storyboard */; };
-		CE5FFD94280167B600798FD7 /* PhotoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE5FFD92280167B600798FD7 /* PhotoApp.xcdatamodeld */; };
+		CE5FFD8E280167B600798FD7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5FFD8D280167B600798FD7 /* LoginViewController.swift */; };
 		CE5FFD96280167C100798FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5FFD95280167C100798FD7 /* Assets.xcassets */; };
-		CE5FFD99280167C100798FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5FFD97280167C100798FD7 /* LaunchScreen.storyboard */; };
+		CE5FFDA32801FCEB00798FD7 /* PhotoSceneCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5FFDA22801FCEB00798FD7 /* PhotoSceneCollectionViewController.swift */; };
+		CE5FFDA52802CECC00798FD7 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5FFDA42802CECC00798FD7 /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE26A5302802F5A4009A4A46 /* AccountsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsListTableViewController.swift; sourceTree = "<group>"; };
+		CE26A53228030408009A4A46 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		CE26A53428031EF0009A4A46 /* AccountEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountEntity.swift; sourceTree = "<group>"; };
+		CE26A5402803580E009A4A46 /* PhotoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoApp.xcdatamodel; sourceTree = "<group>"; };
 		CE5FFD86280167B600798FD7 /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5FFD89280167B600798FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5FFD8B280167B600798FD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE5FFD8D280167B600798FD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE5FFD90280167B600798FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE5FFD93280167B600798FD7 /* PhotoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoApp.xcdatamodel; sourceTree = "<group>"; };
+		CE5FFD8D280167B600798FD7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CE5FFD95280167C100798FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE5FFD98280167C100798FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5FFD9A280167C100798FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5FFDA22801FCEB00798FD7 /* PhotoSceneCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSceneCollectionViewController.swift; sourceTree = "<group>"; };
+		CE5FFDA42802CECC00798FD7 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,15 @@
 			children = (
 				CE5FFD89280167B600798FD7 /* AppDelegate.swift */,
 				CE5FFD8B280167B600798FD7 /* SceneDelegate.swift */,
-				CE5FFD8D280167B600798FD7 /* ViewController.swift */,
-				CE5FFD8F280167B600798FD7 /* Main.storyboard */,
 				CE5FFD95280167C100798FD7 /* Assets.xcassets */,
-				CE5FFD97280167C100798FD7 /* LaunchScreen.storyboard */,
 				CE5FFD9A280167C100798FD7 /* Info.plist */,
-				CE5FFD92280167B600798FD7 /* PhotoApp.xcdatamodeld */,
+				CE5FFD8D280167B600798FD7 /* LoginViewController.swift */,
+				CE5FFDA22801FCEB00798FD7 /* PhotoSceneCollectionViewController.swift */,
+				CE5FFDA42802CECC00798FD7 /* PhotoCollectionViewCell.swift */,
+				CE26A5302802F5A4009A4A46 /* AccountsListTableViewController.swift */,
+				CE26A53228030408009A4A46 /* AccountTableViewCell.swift */,
+				CE26A53428031EF0009A4A46 /* AccountEntity.swift */,
+				CE26A53F2803580E009A4A46 /* PhotoApp.xcdatamodeld */,
 			);
 			path = PhotoApp;
 			sourceTree = "<group>";
@@ -128,9 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5FFD99280167C100798FD7 /* LaunchScreen.storyboard in Resources */,
 				CE5FFD96280167C100798FD7 /* Assets.xcassets in Resources */,
-				CE5FFD91280167B600798FD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,33 +148,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5FFD94280167B600798FD7 /* PhotoApp.xcdatamodeld in Sources */,
-				CE5FFD8E280167B600798FD7 /* ViewController.swift in Sources */,
+				CE5FFD8E280167B600798FD7 /* LoginViewController.swift in Sources */,
+				CE5FFDA32801FCEB00798FD7 /* PhotoSceneCollectionViewController.swift in Sources */,
+				CE26A5412803580E009A4A46 /* PhotoApp.xcdatamodeld in Sources */,
+				CE26A5312802F5A4009A4A46 /* AccountsListTableViewController.swift in Sources */,
 				CE5FFD8A280167B600798FD7 /* AppDelegate.swift in Sources */,
+				CE26A53328030408009A4A46 /* AccountTableViewCell.swift in Sources */,
 				CE5FFD8C280167B600798FD7 /* SceneDelegate.swift in Sources */,
+				CE5FFDA52802CECC00798FD7 /* PhotoCollectionViewCell.swift in Sources */,
+				CE26A53528031EF0009A4A46 /* AccountEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CE5FFD8F280167B600798FD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE5FFD90280167B600798FD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE5FFD97280167C100798FD7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE5FFD98280167C100798FD7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE5FFD9B280167C100798FD7 /* Debug */ = {
@@ -296,9 +289,9 @@
 				DEVELOPMENT_TEAM = 6L662LY2PK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhotoApp/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app attempted to access photo library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,9 +317,9 @@
 				DEVELOPMENT_TEAM = 6L662LY2PK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhotoApp/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app attempted to access photo library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -366,12 +359,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CE5FFD92280167B600798FD7 /* PhotoApp.xcdatamodeld */ = {
+		CE26A53F2803580E009A4A46 /* PhotoApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CE5FFD93280167B600798FD7 /* PhotoApp.xcdatamodel */,
+				CE26A5402803580E009A4A46 /* PhotoApp.xcdatamodel */,
 			);
-			currentVersion = CE5FFD93280167B600798FD7 /* PhotoApp.xcdatamodel */;
+			currentVersion = CE26A5402803580E009A4A46 /* PhotoApp.xcdatamodel */;
 			path = PhotoApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
